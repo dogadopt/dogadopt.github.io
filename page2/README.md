@@ -1,1 +1,0 @@
-# dogadopt.github.io
