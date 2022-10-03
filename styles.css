@@ -1,7 +1,8 @@
 a:hover {
-    background-color: lightyellow;
-  }
-a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-  }
+  background-color: lightyellow;
+}
+
+a, p, h1, h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
