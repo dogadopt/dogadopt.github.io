@@ -99,6 +99,60 @@
           "website": "https://www.bluecross.org.uk/",
           "website_centre": "south-wales-newport-rehoming-and-advice-unit",
           "website_dogs": "rehome/dog"
+      },
+      {
+          "rescue_name": "Stokenchurch Dog Rescue",
+          "lat": "51.66214984880996",
+          "lng": "0.9146014104663426",
+          "website": "https://stokenchurchdogrescue.org.uk/",
+          "website_dogs": "dogs/term/adopt"
+      },
+      {
+          "rescue_name": "Oxfordshire Animal Sanctuary",
+          "lat": "51.68531978671473",
+          "lng": "-1.1228180031624235",
+          "website": "https://oxfordshireanimalsanctuary.org.uk/",
+          "website_dogs": "adopt/dogs"
+      },
+      {
+          "rescue_name": "National Animal Welfare Trust Berkshire",
+          "lat": "51.494376728132174",
+          "lng": "-1.4349389107857522",
+          "website": "https://www.nawt.org.uk/",
+          "website_centre": "our-services/our-centres/nawt-berkshire",
+          "website_dogs": "rehoming/dogs/?centre=57&gender=&age_years=&status=#rehome-filters"
+      },
+      {
+          "rescue_name": "National Animal Welfare Trust Cornwall",
+          "lat": "50.18261103917734",
+          "lng": "-5.397996901688683",
+          "website": "https://www.nawt.org.uk/",
+          "website_centre": "our-services/our-centres/nawt-cornwall",
+          "website_dogs": "rehoming/dogs/?centre=58&gender=&age_years=&status=#rehome-filters"
+      },
+      {
+          "rescue_name": "National Animal Welfare Trust Essex",
+          "lat": "51.8291265017603",
+          "lng": " 1.142403083015276",
+          "website": "https://www.nawt.org.uk/",
+          "website_centre": "our-services/our-centres/nawt-essex",
+          "website_dogs": "rehoming/dogs/?centre=60&gender=&age_years=&status=#rehome-filters"
+      },
+      {
+          "rescue_name": "National Animal Welfare Trust Hertfordshire",
+          "lat": "51.655399735722135",
+          "lng": "-0.3458067016474619",
+          "website": "https://www.nawt.org.uk/",
+          "website_centre": "our-services/our-centres/nawt-hertfordshire",
+          "website_dogs": "rehoming/dogs/?centre=61&gender=&age_years=&status=#rehome-filters"
+      },
+      {
+          "rescue_name": "National Animal Welfare Trust Bedfordshire",
+          "lat": "52.02744526189608",
+          "lng": "-0.6335598421169717",
+          "website": "https://www.nawt.org.uk/",
+          "website_centre": "our-services/our-centres/nawt-bedfordshire",
+          "website_dogs": "rehoming/dogs/?centre=62&gender=&age_years=&status=#rehome-filters"
       }
       ];
 
@@ -113,23 +167,9 @@
       }
 
 
-      function compare(a, b) {
-          if (a.distance > 0) {
-              if (a.distance < b.distance)
-                  return -1;
-              if (a.distance > b.distance)
-                  return 1;
-              return 0;
-          }
-          else {
-              if (a.rescue_name < b.rescue_name)
-                  return -1;
-              if (a.rescue_name > b.rescue_name)
-                  return 1;
-              return 0;
-          }
-      }
-      data.sort(compare);
+      data.sort((a, b) => {
+        return a.distance - b.distance;
+    })
 
       for (var i = 0; i < data.length; i++) {
           // if this location is within 30KM of the user, add it to the list
