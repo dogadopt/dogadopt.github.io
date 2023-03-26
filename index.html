@@ -22,6 +22,11 @@
 
       </div>
       <div class="row">
+        <label for="postcode-input">Enter postcode:</label>
+        <input type="text" id="postcode-input" name="postcode-input">
+        <button id="search-button">Search</button>
+      </div>
+      <div class="row">
           <ul class="column">
               <p id="nearbyrescues"></p>
           </ul>
@@ -29,19 +34,41 @@
 
 
 </body>
+<script src="scripts/postcode.js"></script>
 <script>
   var y = document.getElementById("nearbyrescues");
 
-
+  const searchButton = document.getElementById('search-button');
+      searchButton.addEventListener('click', () => {
+        getLocationFromPostcode(nearestRescue);
+      });
 
   function getLocation() {
       if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(nearestRescue);
+          navigator.geolocation.getCurrentPosition(nearestRescue, showError);
       } else {
           y.innerHTML = "<p>Geolocation is not supported by this browser.</p>";
       }
   }
 
+
+
+  function showError(error) {
+    switch(error.code) {
+      case error.PERMISSION_DENIED:
+        console.log('User denied the request for Geolocation.');    
+        break;
+      case error.POSITION_UNAVAILABLE:
+        console.log('Location information is unavailable.');
+        break;
+      case error.TIMEOUT:
+        console.log('The request to get user location timed out.');
+        break;
+      case error.UNKNOWN_ERROR:
+        console.log('An unknown error occurred.');
+        break;
+    }
+  }
 
 
   function distance(lat1, lon1, lat2, lon2, unit) {
