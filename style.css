@@ -2,9 +2,18 @@
   box-sizing: border-box;
 }
 
+a, a:hover, a:visited, a:active {
+  text-decoration: none;
+  color: #0e1238;
+}
+
+.header img {
+  float: left;
+  width: 10%;
+}
+
 .header {
-  font-size: 30px;
-  font-size: 3.5vw;
+  font-size: max(3.0vw, 30px);
 }
 
 body {
@@ -57,4 +66,3 @@ li :hover
 {
   background-color: red;
 }
-
