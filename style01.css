@@ -11,9 +11,10 @@ a:active {
 }
 
 .header img {
+  max-height: 150px;
   float: left;
-  height: 20%;
 }
+
 
 .header-description {
   /* Styles for the second div */

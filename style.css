@@ -8,6 +8,10 @@ a, a:hover, a:visited, a:active {
 }
 
 .header img {
+  max-height: 150px;
+}
+
+.header img {
   float: left;
   height: 20%;
 }
