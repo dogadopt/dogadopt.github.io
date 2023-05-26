@@ -1,52 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
     <!-- Primary Meta Tags -->
-    <title>Dog Rescues UK</title>
-    <meta name="title" content="Dog Rescues UK">
-    <meta name="description" content="Provides links to dogs and dog rescues in the UK to promote the idea of adopt don't shop">
+    <title>Find Loving Homes for Rescue Dogs in the UK</title>
+    <meta name="title" content="Find Loving Homes for Rescue Dogs in the UK">
+    <meta name="description"
+        content="Discover dogs and dog rescues in the UK to rescue and rehome a deserving canine companion. Choose adoption over purchasing and make a positive impact. Join our mission: Adopt, Don't Shop.">
     <meta name="author" content="Richard Griffiths">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.dogadopt.co.uk/">
-    <meta property="og:title" content="Rescues">
-    <meta property="og:description" content="Provides links to dogs and dog rescues in the UK to promote the idea of adopt don't shop">
+    <meta property="og:title" content="Find Loving Homes for Rescue Dogs in the UK">
+    <meta property="og:description"
+        content="Discover dogs and dog rescues in the UK to rescue and rehome a deserving canine companion. Choose adoption over purchasing and make a positive impact. Join our mission: Adopt, Don't Shop.">
     <meta property="og:image" content="https://www.dogadopt.co.uk/images/meta_image.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://www.dogadopt.co.uk/">
-    <meta property="twitter:title" content="Rescues">
-    <meta property="twitter:description" content="Provides links to dogs and dog rescues in the UK to promote the idea of adopt don't shop">
+    <meta property="twitter:title" content="Find Loving Homes for Rescue Dogs in the UK">
+    <meta property="twitter:description"
+        content="Discover dogs and dog rescues in the UK to rescue and rehome a deserving canine companion. Choose adoption over purchasing and make a positive impact. Join our mission: Adopt, Don't Shop.">
     <meta property="twitter:image" content="https://www.dogadopt.co.uk/images/meta_image.png">
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
-<header>
-    <div class="header">
-        <a href="https://www.dogadopt.co.uk">
-            <img src="images/logo.png" alt="logo"/>
-        </a>
-        <p>Adopt don't shop!</p>
-    </div>
-</header>
-
 <body onload="getLocation()">
-        <div class="row">
-            <label for="postcode-input">Enter postcode:</label>
-            <input type="text" id="postcode-input" name="postcode-input">
-            <button id="search-button">Search</button>
+    <header>
+        <div class="header">
+            <a href="https://www.dogadopt.co.uk">
+                <!-- <img src="images/logo.png" alt="logo" height="10%" /> -->
+            </a>
+            <p>Adopt don't shop!</p>
         </div>
-        <div class="row">
-            <ul class="column">
-                <p id="nearbyrescues"></p>
-            </ul>
-        </div>
-
+        <p>Explore the wonderful world of dogs awaiting their forever homes
+            at nearby dog rescues in the UK. Below, you can discover a wide
+            range of adorable and deserving furry friends who are eagerly seeking loving homes.
+            By adopting from these rescues, you can make a positive difference
+            in a dog's life and provide them with the caring home they deserve.</p>
+    </header>
+    <main>
+    <div class="row">
+        <label for="postcode-input">Enter postcode:</label>
+        <input type="text" id="postcode-input" name="postcode-input">
+        <button id="search-button">Search</button>
+    </div>
+    <div class="row">
+        <ul class="column">
+            <p id="nearbyrescues"></p>
+        </ul>
+    </div>
+</main>
 
 </body>
 <script src="scripts/postcode.js"></script>
@@ -110,7 +121,7 @@
             "lng": "-3.4233855",
             "website": "https://www.hoperescue.org.uk/",
             "website_dogs": "dogs-for-adoption",
-            "current_dogs" : 10
+            "current_dogs": 10
         },
         {
             "rescue_name": "Dogs Trust Bridgend",
@@ -119,7 +130,7 @@
             "website": "https://www.dogstrust.org.uk/",
             "website_centre": "rehoming/our-centres/bridgend",
             "website_dogs": "rehoming/dogs/?centres=BRI",
-            "current_dogs" : 10
+            "current_dogs": 10
         },
         {
             "rescue_name": "Dogs Trust Cardiff",
@@ -128,7 +139,7 @@
             "website": "https://www.dogstrust.org.uk/",
             "website_centre": "rehoming/our-centres/cardiff",
             "website_dogs": "rehoming/dogs/?centres=CWL",
-            "current_dogs" : 10
+            "current_dogs": 10
         },
         {
             "rescue_name": "All Creatures Great and Small",
@@ -136,7 +147,7 @@
             "lng": "-2.9833928370567944",
             "website": "https://www.allcreaturesgreatandsmall.org.uk/",
             "website_dogs": "rehoming/rehome-a-dog",
-            "current_dogs" : 10
+            "current_dogs": 10
         },
         {
             "rescue_name": "Blue Cross Newport",
@@ -145,7 +156,7 @@
             "website": "https://www.bluecross.org.uk/",
             "website_centre": "south-wales-newport-rehoming-and-advice-unit",
             "website_dogs": "rehome/dog",
-            "current_dogs" : 10
+            "current_dogs": 10
         },
         {
             "rescue_name": "Stokenchurch Dog Rescue",
@@ -153,7 +164,7 @@
             "lng": "0.9146014104663426",
             "website": "https://stokenchurchdogrescue.org.uk/",
             "website_dogs": "dogs/term/adopt",
-            "current_dogs" : 10
+            "current_dogs": 10
         },
         {
             "rescue_name": "Oxfordshire Animal Sanctuary",
@@ -161,7 +172,7 @@
             "lng": "-1.1228180031624235",
             "website": "https://oxfordshireanimalsanctuary.org.uk/",
             "website_dogs": "adopt/dogs",
-            "current_dogs" : 10
+            "current_dogs": 10
         },
         {
             "rescue_name": "National Animal Welfare Trust Berkshire",
@@ -170,7 +181,7 @@
             "website": "https://www.nawt.org.uk/",
             "website_centre": "our-services/our-centres/nawt-berkshire",
             "website_dogs": "rehoming/dogs/?centre=57&gender=&age_years=&status=#rehome-filters",
-            "current_dogs" : 10
+            "current_dogs": 10
         },
         {
             "rescue_name": "National Animal Welfare Trust Cornwall",
@@ -179,7 +190,7 @@
             "website": "https://www.nawt.org.uk/",
             "website_centre": "our-services/our-centres/nawt-cornwall",
             "website_dogs": "rehoming/dogs/?centre=58&gender=&age_years=&status=#rehome-filters",
-            "current_dogs" : 10
+            "current_dogs": 10
         },
         {
             "rescue_name": "National Animal Welfare Trust Essex",
@@ -188,7 +199,7 @@
             "website": "https://www.nawt.org.uk/",
             "website_centre": "our-services/our-centres/nawt-essex",
             "website_dogs": "rehoming/dogs/?centre=60&gender=&age_years=&status=#rehome-filters",
-            "current_dogs" : 10
+            "current_dogs": 10
         },
         {
             "rescue_name": "National Animal Welfare Trust Hertfordshire",
@@ -197,7 +208,7 @@
             "website": "https://www.nawt.org.uk/",
             "website_centre": "our-services/our-centres/nawt-hertfordshire",
             "website_dogs": "rehoming/dogs/?centre=61&gender=&age_years=&status=#rehome-filters",
-            "current_dogs" : 10
+            "current_dogs": 10
         },
         {
             "rescue_name": "National Animal Welfare Trust Bedfordshire",
@@ -206,7 +217,7 @@
             "website": "https://www.nawt.org.uk/",
             "website_centre": "our-services/our-centres/nawt-bedfordshire",
             "website_dogs": "rehoming/dogs/?centre=62&gender=&age_years=&status=#rehome-filters",
-            "current_dogs" : 10
+            "current_dogs": 10
         }
         ];
 
@@ -226,9 +237,10 @@
         })
 
         for (var i = 0; i < data.length; i++) {
-            // if this location is within 30KM of the user, add it to the list
-            html += '<li class="card" onclick="location.href = \'' + data[i].website + data[i].website_dogs + '?utm_source=dogadopt\';">Rescue a dog from ' + data[i].rescue_name + ' which is ' + data[i].distance + 'km away</li>'
+            html += '<li><a  href = \'' + data[i].website + data[i].website_dogs + '?utm_source=dogadopt\';" target="_blank"> <div class="card">Rescue a dog from ' + data[i].rescue_name + ' which is ' + data[i].distance + 'km away</div><a/></li>'
         }
+
+        html = '<ol style="list-style-type: none; padding-left: 0;"">' + html + '</ol>'
 
         if (html == "") {
             html += '<p>No nearby rescues</p>';
@@ -238,3 +250,5 @@
 
     }
 </script>
+
+</html>
