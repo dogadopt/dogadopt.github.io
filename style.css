@@ -12,8 +12,15 @@ a, a:hover, a:visited, a:active {
   height: 20%;
 }
 
-.header {
+/* .header {
   font-size: max(3.0vw, 30px);
+  /* display: flex; */
+} */
+
+.header-description {
+  /* Styles for the second div */
+  margin-left: 100px; /* Adjust this value as needed for spacing */
+  position: right;
 }
 
 body {

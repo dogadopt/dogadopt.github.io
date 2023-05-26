@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 
 <head>
@@ -32,32 +32,36 @@
 
 </head>
 
-<body onload="getLocation()">
+<body onload="getLocation()" class="container">
     <header>
         <div class="header">
-            <a href="https://www.dogadopt.co.uk">
-                <!-- <img src="images/logo.png" alt="logo" height="10%" /> -->
+            <a href="/">
+                <img src="images/logo.png" alt="logo" />
             </a>
-            <p>Adopt don't shop!</p>
+            <h1>Adopt don't shop!</h1>
+            <p class="header-description">Explore the wonderful world of dogs awaiting their forever homes
+                at nearby dog rescues in the UK. Below, you can discover a wide
+                range of adorable and deserving furry friends who are eagerly seeking loving homes.
+                By adopting from these rescues, you can make a positive difference
+                in a dog's life and provide them with the caring home they deserve.</p>
         </div>
-        <p>Explore the wonderful world of dogs awaiting their forever homes
-            at nearby dog rescues in the UK. Below, you can discover a wide
-            range of adorable and deserving furry friends who are eagerly seeking loving homes.
-            By adopting from these rescues, you can make a positive difference
-            in a dog's life and provide them with the caring home they deserve.</p>
+            <div >
+            
+        </div>
     </header>
-    <main>
-    <div class="row">
-        <label for="postcode-input">Enter postcode:</label>
-        <input type="text" id="postcode-input" name="postcode-input">
-        <button id="search-button">Search</button>
-    </div>
-    <div class="row">
-        <ul class="column">
-            <p id="nearbyrescues"></p>
-        </ul>
-    </div>
-</main>
+    <main class="main">
+        
+        <div class="row">
+            <label for="postcode-input">Enter postcode:</label>
+            <input type="text" id="postcode-input" name="postcode-input">
+            <button id="search-button">Search</button>
+        </div>
+        <div class="row">
+            <ul class="column">
+                <p id="nearbyrescues"></p>
+            </ul>
+        </div>
+    </main>
 
 </body>
 <script src="scripts/postcode.js"></script>
@@ -251,4 +255,4 @@
     }
 </script>
 
-</html>
+<!-- </html> -->
