@@ -48,13 +48,13 @@ body {
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 5px;
+  padding: 16px;
   text-align: center;
   background-color: rgba(227, 127, 12, 0.059); 
   margin: 10px 0;
 }
 
-.clickable-card:hover {
+.card:hover {
   background-color: rgba(227, 127, 12, 0.2);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   cursor: pointer;
@@ -68,61 +68,3 @@ body {
     margin-bottom: 20px;
   }
 }
-
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-.topnav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav li {
-  float: left;
-}
-
-.topnav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-.topnav li a:hover {
-  background-color: #111;
-}
-
-main {
-  text-align: left;
-}
-
-h1 {
-  font-size: 28px;
-  color: #53410b;
-  margin-top: 0;
-}
-
-h2 {
-  font-size: 24px;
-  color: #a86e01;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-p {
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-
-
-
-
-
-
