@@ -51,15 +51,37 @@ body {
 
 /* Style the counter cards */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 5px;
   text-align: center;
   background-color: rgba(227, 127, 12, 0.059); 
   margin: 10px 0;
 }
 
+.clickable-card {
+  background-color: rgba(230, 126, 7, 0.836);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.clickable-card h2 {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  position: center;
+  text-align: center;
+  text-justify: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.clickable-card img {
+  max-height: 25px;
+}
+
 .clickable-card:hover {
-  background-color: rgba(227, 127, 12, 0.2);
+  background-color: rgba(248, 133, 2, 0.836);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   cursor: pointer;
 }
@@ -111,6 +133,7 @@ h1 {
   font-size: 28px;
   color: #53410b;
   margin-top: 0;
+  text-align: left;
 }
 
 h2 {
@@ -118,11 +141,13 @@ h2 {
   color: #a86e01;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 p {
   font-size: 16px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .contact-list {
@@ -139,7 +164,7 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
   padding: 10px 20px;
-  background-color:  rgba(227, 127, 12, 0.059);
+  background-color:  rgba(12, 130, 227, 0.059);
   text-decoration: none;
   border-radius: 5px;
 }
