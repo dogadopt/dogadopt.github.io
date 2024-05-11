@@ -92,9 +92,9 @@
         "lat": "51.678073",
         "lng": "-4.712498",
         "website": "https://www.greyhoundtrust.org.uk",
-        "website_centre": "",
-        "website_dogs": "",
-        "current_dogs": 0,
+        "website_centre": "regional-branches/1044-south-west-wales",
+        "website_dogs": "/home-a-greyhound?siteid=68",
+        "current_dogs": 3,
         "country": "Wales"
     },
     {
@@ -103,8 +103,8 @@
         "lng": "-3.342751",
         "website": "https://greyhoundrescueWales.co.uk",
         "website_centre": "",
-        "website_dogs": "",
-        "current_dogs": 0,
+        "website_dogs": "/adopt",
+        "current_dogs": 14,
         "country": "Wales"
     },
     {
@@ -113,8 +113,8 @@
         "lng": "-4.975693",
         "website": "https://www.greenacresrescue.org.uk",
         "website_centre": "",
-        "website_dogs": "",
-        "current_dogs": 0,
+        "website_dogs": "/find-a-pet/dogs",
+        "current_dogs": 20,
         "country": "Wales"
     },
     {
@@ -123,7 +123,7 @@
         "lng": "-3.051279",
         "website": "https://www.freshfields.org.uk",
         "website_centre": "",
-        "website_dogs": "",
+        "website_dogs": "/freshfields-residents",
         "current_dogs": 0,
         "country": "Wales"
     },
@@ -143,8 +143,8 @@
         "lng": "-3.142241",
         "website": "https://www.ncar.org.uk",
         "website_centre": "",
-        "website_dogs": "",
-        "current_dogs": 0,
+        "website_dogs": "/animal_categories/dogs",
+        "current_dogs": 64,
         "country": "Wales"
     },
     {
@@ -153,8 +153,8 @@
         "lng": "-3.001923",
         "website": "https://www.rottweilerwelfare.co.uk",
         "website_centre": "",
-        "website_dogs": "",
-        "current_dogs": 0,
+        "website_dogs": "/our-dogs",
+        "current_dogs": 13,
         "country": "Wales"
     },
     {
