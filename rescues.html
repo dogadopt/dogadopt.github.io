@@ -51,8 +51,7 @@
     </header>
     <main class="main">
         <h1>Rescue Search</h1>
-        <p class="header-description">Find dogs awaiting their forever homes
-            at your nearby dog rescues in the UK.</p>
+        <p class="header-description" id="rescuestatus">Retrieving dog rescues...</p>
         <div class="row">
             <label for="postcode-input">Enter postcode:</label>
             <input type="text" id="postcode-input" name="postcode-input">
@@ -69,7 +68,7 @@
 </body>
 <script src="scripts/postcode.js"></script>
 <script>
-    var y = document.getElementById("nearbyrescues");
+
 
     const searchButton = document.getElementById('search-button');
     searchButton.addEventListener('click', () => {
@@ -132,6 +131,7 @@
                 var poslat = position.coords.latitude;
                 var poslng = position.coords.longitude;
                 var rescue_name;
+                current_dogs = 0;
 
                 for (var i = 0; i < rescues.length; i++) {
                     rescues[i]['distance'] = distance(poslat, poslng, rescues[i].lat, rescues[i].lng, "K").toFixed(2);
@@ -143,15 +143,25 @@
                 });
 
                 for (var i = 0; i < rescues.length; i++) {
-                    html += '<li><a  href = \'' + rescues[i].website + rescues[i].website_dogs + '?utm_source=dogadopt\';" target="_blank"> <div class="card">Rescue a dog from ' + rescues[i].rescue_name + ' which is ' + rescues[i].distance + 'km away</div><a/></li>';
+                    rescue_current_dogs = rescues[i].current_dogs;
+                    if (rescue_current_dogs > 0) {
+                        html += '<li><a  href = \'' + rescues[i].website + rescues[i].website_dogs + '?utm_source=dogadopt\';" target="_blank"> <div class="card">Rescue one of the '+ rescue_current_dogs + ' dogs from ' + rescues[i].rescue_name + ' which is ' + rescues[i].distance + 'km away</div><a/></li>';
+                        current_dogs = current_dogs + rescues[i].current_dogs;
+                    }
+                 
                 }
 
                 document.getElementById("nearbyrescues").innerHTML = html;
+
+                html = '<p>Rescue one of the <b>'+ current_dogs +' dogs</b> awaiting their forever homes at your nearby dog rescues in the UK.</p>'
+                document.getElementById("rescuestatus").innerHTML = html;
             })
             .catch(error => {
                 console.error('Error reading data:', error);
             });
     }
-</script>
 
-<!-- </html> -->
+
+    </script>
+
+    <!-- </html> -->

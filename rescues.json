@@ -4,8 +4,8 @@
         "lat": "51.5683353",
         "lng": "-3.4233855",
         "website": "https://www.hoperescue.org.uk/",
-        "website_dogs": "dogs-for-adoption",
-        "current_dogs": 10,
+        "website_dogs": "Listing/Category/rehoming",
+        "current_dogs": 66,
         "country": "Wales"
     },
     {
@@ -15,7 +15,7 @@
         "website": "https://www.dogstrust.org.uk/",
         "website_centre": "rehoming/our-centres/bridgend",
         "website_dogs": "rehoming/dogs/?centres=BRI",
-        "current_dogs": 10,
+        "current_dogs": 34,
         "country": "Wales"
     },
     {
@@ -25,7 +25,7 @@
         "website": "https://www.dogstrust.org.uk/",
         "website_centre": "rehoming/our-centres/cardiff",
         "website_dogs": "rehoming/dogs/?centres=CWL",
-        "current_dogs": 10,
+        "current_dogs": 45,
         "country": "Wales"
     },
     {
@@ -34,7 +34,7 @@
         "lng": "-2.9833928370567944",
         "website": "https://www.allcreaturesgreatandsmall.org.uk/",
         "website_dogs": "rehoming/rehome-a-dog",
-        "current_dogs": 10,
+        "current_dogs": 7,
         "country": "Wales"
     },
     {
@@ -43,8 +43,8 @@
         "lng": "-2.9780051901218263",
         "website": "https://www.bluecross.org.uk/",
         "website_centre": "south-Wales-newport-rehoming-and-advice-unit",
-        "website_dogs": "rehome/dog",
-        "current_dogs": 10,
+        "website_dogs": "rehome/dog?Location=South%20Wales:%20Newport%20rehoming,%20advice%20and%20behaviour%20unit",
+        "current_dogs": 4,
         "country": "Wales"
     },
     {
@@ -54,7 +54,7 @@
         "website": "https://www.rspca.org.uk/",
         "website_centre": "local/newport-animal-centre",
         "website_dogs": "",
-        "current_dogs": 10,
+        "current_dogs": 0,
         "country": "Wales"
     },
     {
@@ -64,7 +64,7 @@
         "website": "https://www.greyhoundtrustsouthwest.org.uk/",
         "website_centre": "",
         "website_dogs": "",
-        "current_dogs": 10,
+        "current_dogs": 0,
         "country": "Wales"
     },
     {
@@ -74,7 +74,7 @@
         "website": "http://www.porthcawlanimalwelfare.co.uk/",
         "website_centre": "",
         "website_dogs": "",
-        "current_dogs": 10,
+        "current_dogs": 0,
         "country": "Wales"
     },
     {
@@ -84,7 +84,7 @@
         "website": "https://www.german-shepherd-rescue-hampshire.org.uk/",
         "website_centre": "",
         "website_dogs": "",
-        "current_dogs": 10,
+        "current_dogs": 0,
         "country": "Wales"
     },
     {
@@ -94,7 +94,7 @@
         "website": "https://www.greyhoundtrust.org.uk/",
         "website_centre": "",
         "website_dogs": "",
-        "current_dogs": 10,
+        "current_dogs": 0,
         "country": "Wales"
     },
     {
@@ -104,7 +104,7 @@
         "website": "https://greyhoundrescueWales.co.uk/",
         "website_centre": "",
         "website_dogs": "",
-        "current_dogs": 10,
+        "current_dogs": 0,
         "country": "Wales"
     },
     {
@@ -114,7 +114,7 @@
         "website": "https://www.greenacresrescue.org.uk/",
         "website_centre": "",
         "website_dogs": "",
-        "current_dogs": 10,
+        "current_dogs": 0,
         "country": "Wales"
     },
     {
@@ -124,7 +124,7 @@
         "website": "https://www.freshfields.org.uk/",
         "website_centre": "",
         "website_dogs": "",
-        "current_dogs": 10,
+        "current_dogs": 0,
         "country": "Wales"
     },
     {
@@ -134,7 +134,7 @@
         "website": "https://www.rspca.org.uk/",
         "website_centre": "local/bryn-y-maen-animal-centre",
         "website_dogs": "",
-        "current_dogs": 10,
+        "current_dogs": 0,
         "country": "Wales"
     },
     {
@@ -144,7 +144,7 @@
         "website": "https://www.ncar.org.uk/",
         "website_centre": "",
         "website_dogs": "",
-        "current_dogs": 10,
+        "current_dogs": 0,
         "country": "Wales"
     },
     {
@@ -154,85 +154,17 @@
         "website": "https://www.rottweilerwelfare.co.uk/",
         "website_centre": "",
         "website_dogs": "",
-        "current_dogs": 10,
+        "current_dogs": 0,
         "country": "Wales"
     },
     {
         "rescue_name": "Cardiff Dogs Home",
         "lat": "51.488585",
         "lng": "-3.169084",
-        "website": "https://cardiff.gov.uk/",
-        "website_centre": "services-and-information/animals-and-pets/dogs-home",
-        "website_dogs": "",
-        "current_dogs": 10,
+        "website": "https://www.cardiffdogshome.co.uk/",
+        "website_centre": "",
+        "website_dogs": "give-a-dog-a-home/dogs-available-for-rehoming/",
+        "current_dogs": 0,
         "country": "Wales"
-    },
-    {
-        "rescue_name": "Stokenchurch Dog Rescue",
-        "lat": "51.66214984880996",
-        "lng": "0.9146014104663426",
-        "website": "https://stokenchurchdogrescue.org.uk/",
-        "website_dogs": "dogs/term/adopt",
-        "current_dogs": 10,
-        "country": "England"
-    },
-    {
-        "rescue_name": "Oxfordshire Animal Sanctuary",
-        "lat": "51.68531978671473",
-        "lng": "-1.1228180031624235",
-        "website": "https://oxfordshireanimalsanctuary.org.uk/",
-        "website_dogs": "adopt/dogs",
-        "current_dogs": 10,
-        "country": "England"
-    },
-    {
-        "rescue_name": "National Animal Welfare Trust Berkshire",
-        "lat": "51.494376728132174",
-        "lng": "-1.4349389107857522",
-        "website": "https://www.nawt.org.uk/",
-        "website_centre": "our-services/our-centres/nawt-berkshire",
-        "website_dogs": "rehoming/dogs/?centre=57&gender=&age_years=&status=#rehome-filters",
-        "current_dogs": 10,
-        "country": "England"
-    },
-    {
-        "rescue_name": "National Animal Welfare Trust Cornwall",
-        "lat": "50.18261103917734",
-        "lng": "-5.397996901688683",
-        "website": "https://www.nawt.org.uk/",
-        "website_centre": "our-services/our-centres/nawt-cornwall",
-        "website_dogs": "rehoming/dogs/?centre=58&gender=&age_years=&status=#rehome-filters",
-        "current_dogs": 10,
-        "country": "England"
-    },
-    {
-        "rescue_name": "National Animal Welfare Trust Essex",
-        "lat": "51.8291265017603",
-        "lng": " 1.142403083015276",
-        "website": "https://www.nawt.org.uk/",
-        "website_centre": "our-services/our-centres/nawt-essex",
-        "website_dogs": "rehoming/dogs/?centre=60&gender=&age_years=&status=#rehome-filters",
-        "current_dogs": 10,
-        "country": "England"
-    },
-    {
-        "rescue_name": "National Animal Welfare Trust Hertfordshire",
-        "lat": "51.655399735722135",
-        "lng": "-0.3458067016474619",
-        "website": "https://www.nawt.org.uk/",
-        "website_centre": "our-services/our-centres/nawt-hertfordshire",
-        "website_dogs": "rehoming/dogs/?centre=61&gender=&age_years=&status=#rehome-filters",
-        "current_dogs": 10,
-        "country": "England"
-    },
-    {
-        "rescue_name": "National Animal Welfare Trust Bedfordshire",
-        "lat": "52.02744526189608",
-        "lng": "-0.6335598421169717",
-        "website": "https://www.nawt.org.uk/",
-        "website_centre": "our-services/our-centres/nawt-bedfordshire",
-        "website_dogs": "rehoming/dogs/?centre=62&gender=&age_years=&status=#rehome-filters",
-        "current_dogs": 10,
-        "country": "England"
     }
 ]
