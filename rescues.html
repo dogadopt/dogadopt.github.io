@@ -145,7 +145,13 @@
                 for (var i = 0; i < rescues.length; i++) {
                     rescue_current_dogs = rescues[i].current_dogs;
                     if (rescue_current_dogs > 0) {
-                        html += '<li><a  href = \'' + rescues[i].website + rescues[i].website_dogs + '?utm_source=dogadopt\';" target="_blank"> <div class="card">Rescue one of the '+ rescue_current_dogs + ' dogs from ' + rescues[i].rescue_name + ' which is ' + rescues[i].distance + 'km away</div><a/></li>';
+                        website_dogs = rescues[i].website + rescues[i].website_dogs;
+                        if (website_dogs.includes("?")) {
+                            website_dogs = website_dogs + '&utm_source=dogadopt';
+                        } else {
+                            website_dogs = website_dogs + '?utm_source=dogadopt';
+                        }
+                        html += '<li><a  href = \'' + website_dogs + '\';" target="_blank"> <div class="card">Rescue one of the '+ rescue_current_dogs + ' dogs from ' + rescues[i].rescue_name + ' which is ' + rescues[i].distance + 'km away</div><a/></li>';
                         current_dogs = current_dogs + rescues[i].current_dogs;
                     }
                  
