@@ -5,7 +5,7 @@
         "lng": "-3.4233855",
         "website": "https://www.hoperescue.org.uk/",
         "website_dogs": "/Listing/Category/rehoming",
-        "current_dogs": 66,
+        "current_dogs": 57,
         "country": "Wales"
     },
     {
@@ -15,7 +15,7 @@
         "website": "https://www.dogstrust.org.uk",
         "website_centre": "rehoming/our-centres/bridgend",
         "website_dogs": "/rehoming/dogs?centres=BRI",
-        "current_dogs": 34,
+        "current_dogs": 33,
         "country": "Wales"
     },
     {
@@ -25,7 +25,7 @@
         "website": "https://www.dogstrust.org.uk",
         "website_centre": "rehoming/our-centres/cardiff",
         "website_dogs": "/rehoming/dogs?centres=CWL",
-        "current_dogs": 45,
+        "current_dogs": 43,
         "country": "Wales"
     },
     {
@@ -34,7 +34,7 @@
         "lng": "-2.9833928370567944",
         "website": "https://www.allcreaturesgreatandsmall.org.uk",
         "website_dogs": "/rehoming/rehome-a-dog",
-        "current_dogs": 7,
+        "current_dogs": 5,
         "country": "Wales"
     },
     {
@@ -44,7 +44,7 @@
         "website": "https://www.bluecross.org.uk",
         "website_centre": "south-Wales-newport-rehoming-and-advice-unit",
         "website_dogs": "/rehome/dog?Location=South%20Wales:%20Newport%20rehoming,%20advice%20and%20behaviour%20unit",
-        "current_dogs": 4,
+        "current_dogs": 3,
         "country": "Wales"
     },
     {
@@ -64,7 +64,7 @@
         "website": "https://swwgreyhounds.org.uk",
         "website_centre": "",
         "website_dogs": "/homing",
-        "current_dogs": 32,
+        "current_dogs": 35,
         "country": "Wales"
     },
     {
@@ -94,7 +94,7 @@
         "website": "https://www.greyhoundtrust.org.uk",
         "website_centre": "regional-branches/1044-south-west-wales",
         "website_dogs": "/home-a-greyhound?siteid=68",
-        "current_dogs": 3,
+        "current_dogs": 31,
         "country": "Wales"
     },
     {
@@ -104,7 +104,7 @@
         "website": "https://greyhoundrescueWales.co.uk",
         "website_centre": "",
         "website_dogs": "/adopt",
-        "current_dogs": 14,
+        "current_dogs": 16,
         "country": "Wales"
     },
     {
@@ -114,7 +114,7 @@
         "website": "https://www.greenacresrescue.org.uk",
         "website_centre": "",
         "website_dogs": "/find-a-pet/dogs",
-        "current_dogs": 20,
+        "current_dogs": 27,
         "country": "Wales"
     },
     {
@@ -144,7 +144,7 @@
         "website": "https://www.ncar.org.uk",
         "website_centre": "",
         "website_dogs": "/animal_categories/dogs",
-        "current_dogs": 64,
+        "current_dogs": 65,
         "country": "Wales"
     },
     {
@@ -164,7 +164,7 @@
         "website": "https://www.cardiffdogshome.co.uk",
         "website_centre": "",
         "website_dogs": "/give-a-dog-a-home/dogs-available-for-rehoming",
-        "current_dogs": 22,
+        "current_dogs": 19,
         "country": "Wales"
     }
 ]
