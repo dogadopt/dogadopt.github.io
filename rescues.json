@@ -9,16 +9,6 @@
         "country": "Wales"
     },
     {
-        "rescue_name": "Dogs Trust Bridgend",
-        "lat": "51.5229559",
-        "lng": "-3.6170128",
-        "website": "https://www.dogstrust.org.uk",
-        "website_centre": "rehoming/our-centres/bridgend",
-        "website_dogs": "/rehoming/dogs?centres=BRI",
-        "current_dogs": 30,
-        "country": "Wales"
-    },
-    {
         "rescue_name": "Dogs Trust Ballymena",
         "lat": "54.89434429019429",
         "lng": "-6.319846642329437",
@@ -30,12 +20,32 @@
     },
     {
         "rescue_name": "Dogs Trust Basildon",
-        "lat": "54.89434429019429",
-        "lng": "-6.319846642329437",
+        "lat": "51.59382415776215",
+        "lng": "0.4979160552076976",
         "website": "https://www.dogstrust.org.uk",
         "website_centre": "rehoming/our-centres/essex",
         "website_dogs": "/rehoming/dogs?centres=ESS",
         "current_dogs": 31,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust Bridgend",
+        "lat": "51.5229559",
+        "lng": "-3.6170128",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "rehoming/our-centres/bridgend",
+        "website_dogs": "/rehoming/dogs?centres=BRI",
+        "current_dogs": 30,
+        "country": "Wales"
+    },
+    {
+        "rescue_name": "Dogs Trust Canterbury",
+        "lat": "51.3311581182853",
+        "lng": "1.0665529975239958",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "rehoming/our-centres/canterbury",
+        "website_dogs": "/rehoming/dogs?centres=CANT",
+        "current_dogs": 38,
         "country": "England"
     },
     {
@@ -47,6 +57,16 @@
         "website_dogs": "/rehoming/dogs?centres=CWL",
         "current_dogs": 35,
         "country": "Wales"
+    },
+    {
+        "rescue_name": "Dogs Trust Cumbria",
+        "lat": "54.74007052390364",
+        "lng": "-2.7114944087079116",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "rehoming/our-centres/cumbria",
+        "website_dogs": "/rehoming/dogs?centres=PEN",
+        "current_dogs": 6,
+        "country": "England"
     },
     {
         "rescue_name": "All Creatures Great and Small",
