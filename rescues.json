@@ -29,6 +29,16 @@
         "country": "Northern Ireland"
     },
     {
+        "rescue_name": "Dogs Trust Basildon",
+        "lat": "54.89434429019429",
+        "lng": "-6.319846642329437",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "rehoming/our-centres/essex",
+        "website_dogs": "/rehoming/dogs?centres=ESS",
+        "current_dogs": 31,
+        "country": "England"
+    },
+    {
         "rescue_name": "Dogs Trust Cardiff",
         "lat": "51.472538",
         "lng": "-3.154653",
