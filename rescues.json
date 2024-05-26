@@ -13,7 +13,7 @@
         "lat": "54.89434429019429",
         "lng": "-6.319846642329437",
         "website": "https://www.dogstrust.org.uk",
-        "website_centre": "rehoming/our-centres/ballymena",
+        "website_centre": "/rehoming/our-centres/ballymena",
         "website_dogs": "/rehoming/dogs?centres=BA",
         "current_dogs": 15,
         "country": "Northern Ireland"
@@ -23,7 +23,7 @@
         "lat": "51.59382415776215",
         "lng": "0.4979160552076976",
         "website": "https://www.dogstrust.org.uk",
-        "website_centre": "rehoming/our-centres/essex",
+        "website_centre": "/rehoming/our-centres/essex",
         "website_dogs": "/rehoming/dogs?centres=ESS",
         "current_dogs": 31,
         "country": "England"
@@ -33,7 +33,7 @@
         "lat": "51.5229559",
         "lng": "-3.6170128",
         "website": "https://www.dogstrust.org.uk",
-        "website_centre": "rehoming/our-centres/bridgend",
+        "website_centre": "/rehoming/our-centres/bridgend",
         "website_dogs": "/rehoming/dogs?centres=BRI",
         "current_dogs": 30,
         "country": "Wales"
@@ -43,7 +43,7 @@
         "lat": "51.3311581182853",
         "lng": "1.0665529975239958",
         "website": "https://www.dogstrust.org.uk",
-        "website_centre": "rehoming/our-centres/canterbury",
+        "website_centre": "/rehoming/our-centres/canterbury",
         "website_dogs": "/rehoming/dogs?centres=CANT",
         "current_dogs": 38,
         "country": "England"
@@ -53,7 +53,7 @@
         "lat": "51.472538",
         "lng": "-3.154653",
         "website": "https://www.dogstrust.org.uk",
-        "website_centre": "rehoming/our-centres/cardiff",
+        "website_centre": "/rehoming/our-centres/cardiff",
         "website_dogs": "/rehoming/dogs?centres=CWL",
         "current_dogs": 35,
         "country": "Wales"
@@ -63,10 +63,170 @@
         "lat": "54.74007052390364",
         "lng": "-2.7114944087079116",
         "website": "https://www.dogstrust.org.uk",
-        "website_centre": "rehoming/our-centres/cumbria",
+        "website_centre": "/rehoming/our-centres/cumbria",
         "website_dogs": "/rehoming/dogs?centres=PEN",
         "current_dogs": 6,
         "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust Darlington",
+        "lat": "54.5581299172093",
+        "lng": "-1.4736975243362862",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "/rehoming/our-centres/darlington",
+        "website_dogs": "/rehoming/dogs?centres=DAR",
+        "current_dogs": 45,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust Evesham",
+        "lat": "52.06706403840139",
+        "lng": "-1.8976944576712451",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "/rehoming/our-centres/evesham",
+        "website_dogs": "/rehoming/dogs?centres=EVE",
+        "current_dogs": 53,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust Glasgow",
+        "lat": "55.840651544802014",
+        "lng": "-4.123991099999999",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "/rehoming/our-centres/glasgow",
+        "website_dogs": "/rehoming/dogs?centres=GLA",
+        "current_dogs": 34,
+        "country": "Scotland"
+    },
+    {
+        "rescue_name": "Dogs Trust Harefield West London",
+        "lat": "51.58115710585518",
+        "lng": "-0.4695443288356228",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "/rehoming/our-centres/harefield",
+        "website_dogs": "/rehoming/dogs?centres=HAR",
+        "current_dogs": 43,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust Ilfracombe",
+        "lat": "51.15411866097572",
+        "lng": "-4.141980209875649",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "rehoming/our-centres/ilfracombe",
+        "website_dogs": "/rehoming/dogs?centres=ILF",
+        "current_dogs": 24,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust Kenilworth",
+        "lat": "52.34946443522804",
+        "lng": "-1.6536649865068689",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "/rehoming/our-centres/kenilworth",
+        "website_dogs": "/rehoming/dogs?centres=KEN",
+        "current_dogs": 64,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust Leeds",
+        "lat": "53.85209030832631",
+        "lng": "-1.3785319974301473",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "rehoming/our-centres/leeds",
+        "website_dogs": "/rehoming/dogs?centres=LE",
+        "current_dogs": 37,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust Loughborough",
+        "lat": "52.80450426390624",
+        "lng": "-1.0661442389218843",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "rehoming/our-centres/loughborough",
+        "website_dogs": "/rehoming/dogs?centres=LOU",
+        "current_dogs": 39,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust Manchester",
+        "lat": "53.45396606709549",
+        "lng": "-2.13259086049060766",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "rehoming/our-centres/manchester",
+        "website_dogs": "/rehoming/dogs?centres=MAN",
+        "current_dogs": 25,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust Liverpool",
+        "lat": "53.41506807594241",
+        "lng": "-2.8171201543426223",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "rehoming/our-centres/merseyside",
+        "website_dogs": "/rehoming/dogs?centres=LIV",
+        "current_dogs": 67,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust Newbury",
+        "lat": "51.385223780970776",
+        "lng": "-1.4075837638901438",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "rehoming/our-centres/newbury",
+        "website_dogs": "/rehoming/dogs?centres=NEW",
+        "current_dogs": 24,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust Salisbury",
+        "lat": "54.74007052390364",
+        "lng": "-2.7114944087079116",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "rehoming/our-centres/cumbria",
+        "website_dogs": "/rehoming/dogs?centres=PEN",
+        "current_dogs": 30,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust Shoreham",
+        "lat": "54.74007052390364",
+        "lng": "-2.7114944087079116",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "rehoming/our-centres/cumbria",
+        "website_dogs": "/rehoming/dogs?centres=PEN",
+        "current_dogs": 14,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust Shrewsbury",
+        "lat": "54.74007052390364",
+        "lng": "-2.7114944087079116",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "rehoming/our-centres/cumbria",
+        "website_dogs": "/rehoming/dogs?centres=PEN",
+        "current_dogs": 31,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust Snetterton",
+        "lat": "54.74007052390364",
+        "lng": "-2.7114944087079116",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "rehoming/our-centres/cumbria",
+        "website_dogs": "/rehoming/dogs?centres=PEN",
+        "current_dogs": 31,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Dogs Trust West Calder",
+        "lat": "54.74007052390364",
+        "lng": "-2.7114944087079116",
+        "website": "https://www.dogstrust.org.uk",
+        "website_centre": "rehoming/our-centres/cumbria",
+        "website_dogs": "/rehoming/dogs?centres=PEN",
+        "current_dogs": 45,
+        "country": "Scotland"
     },
     {
         "rescue_name": "All Creatures Great and Small",
