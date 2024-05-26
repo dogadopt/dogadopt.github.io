@@ -238,7 +238,37 @@
         "country": "Wales"
     },
     {
-        "rescue_name": "Blue Cross Newport",
+        "rescue_name": "Blue Cross Devon",
+        "lat": "50.69718793016154",
+        "lng": "-3.520393002629656",
+        "website": "https://www.bluecross.org.uk",
+        "website_centre": "/devon-exeter-rehoming-advice-and-behaviour-unit",
+        "website_dogs": "/rehome/dog?Location=Devon:%20Exeter%20rehoming,%20advice%20and%20behaviour%20unit",
+        "current_dogs": 1,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Blue Cross Hampshire",
+        "lat": "50.94122669302236",
+        "lng": "-1.2981374121965266",
+        "website": "https://www.bluecross.org.uk",
+        "website_centre": "/hampshire-southampton-rehoming-centre",
+        "website_dogs": "/rehome/dog?Location=Hampshire:%20Southampton%20rehoming%20centre",
+        "current_dogs": 4,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Blue Cross Hertfordshire",
+        "lat": "51.84419194100218",
+        "lng": "-0.3203479267950048",
+        "website": "https://www.bluecross.org.uk",
+        "website_centre": "/hertfordshire-kimpton-rehoming-centre",
+        "website_dogs": "/rehome/dog?Location=Hertfordshire%20rehoming%20centre",
+        "current_dogs": 7,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Blue Cross South Wales",
         "lat": "51.584123441801914",
         "lng": "-2.9780051901218263",
         "website": "https://www.bluecross.org.uk",
@@ -246,6 +276,56 @@
         "website_dogs": "/rehome/dog?Location=South%20Wales:%20Newport%20rehoming,%20advice%20and%20behaviour%20unit",
         "current_dogs": 3,
         "country": "Wales"
+    },
+    {
+        "rescue_name": "Blue Cross Oxfordshire",
+        "lat": "51.78816443788282",
+        "lng": "-1.6185645699904763",
+        "website": "https://www.bluecross.org.uk",
+        "website_centre": "/oxfordshire-burford-rehoming-centre",
+        "website_dogs": "/rehome/dog?Location=Oxfordshire:%20Burford%20rehoming%20centre",
+        "current_dogs": 12,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Blue Cross South Yorkshire",
+        "lat": "53.34596518213209",
+        "lng": "-1.4944702718186182",
+        "website": "https://www.bluecross.org.uk",
+        "website_centre": "/south-yorkshire-sheffield-rehoming-and-advice-unit",
+        "website_dogs": "/rehome/dog?Location=South%20Yorkshire:%20Sheffield%20rehoming,%20advice%20and%20behaviour%20unit",
+        "current_dogs": 6,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Blue Cross Suffolk",
+        "lat": "52.025919652569634",
+        "lng": "1.142073512074519",
+        "website": "https://www.bluecross.org.uk",
+        "website_centre": "/suffolk-rehoming-centre",
+        "website_dogs": "/rehome/dog?Location=Suffolk%20rehoming%20centre",
+        "current_dogs": 5,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Blue Cross West Midlands",
+        "lat": "52.374296291332236",
+        "lng": "-2.0546579417654325",
+        "website": "https://www.bluecross.org.uk",
+        "website_centre": "/west-midlands-bromsgrove-rehoming-centre",
+        "website_dogs": "/rehome/dog?Location=West%20Midlands:%20Bromsgrove%20rehoming%20centre",
+        "current_dogs": 4,
+        "country": "England"
+    },
+    {
+        "rescue_name": "Blue Cross Yorkshire",
+        "lat": "54.194765936991736",
+        "lng": "-1.40298362698676083",
+        "website": "https://www.bluecross.org.uk",
+        "website_centre": "/yorkshire-thirsk-rehoming-centre",
+        "website_dogs": "/rehome/dog?Location=Yorkshire:%20Thirsk%20rehoming%20centre",
+        "current_dogs": 4,
+        "country": "England"
     },
     {
         "rescue_name": "RSPCA Newport",
