@@ -508,7 +508,7 @@
         "country": "Ireland"
     },
     {
-        "rescue_name": "Dogs Trust Ireland",
+        "rescue_name": "MADRA Rescue",
         "lat": "53.33276569667293",
         "lng": "-9.55779431797975",
         "website": "https://www.madra.ie",
@@ -518,7 +518,7 @@
         "country": "Ireland"
     },
     {
-        "rescue_name": "Dogs Trust Ireland",
+        "rescue_name": "Mayo SPCA",
         "lat": "53.74964886887303",
         "lng": "-8.800114390686645",
         "website": "https://mayospca.ie",
@@ -526,5 +526,60 @@
         "website_dogs": "/category/dogs/",
         "current_dogs": 3,
         "country": "Ireland"
+    },
+    {
+        "rescue_name": "Rainbow Rehoming Centre",
+        "lat": "55.032873762967874",
+        "lng": "-7.165914319726115",
+        "website": "https://www.rainbowrehoming.com",
+        "website_centre": "",
+        "website_dogs": "/rehome/dogs",
+        "facebook": "https://www.facebook.com/RainbowRehoming/about?locale=en_GB",
+        "current_dogs": 0,
+        "country": "Northern Ireland"
+    },
+    {
+        "rescue_name": "Grovehill Animal Trust",
+        "lat": "54.60724252744901",
+        "lng": "-7.3045544503179",
+        "website": "https://grovehillanimaltrust.org",
+        "website_centre": "",
+        "website_dogs": "rehoming/dog-rehoming-process/",
+        "facebook": "",
+        "current_dogs": 0,
+        "country": "Northern Ireland"
+    },
+    {
+        "rescue_name": "Grovehill Animal Trust",
+        "lat": "54.60724252744901",
+        "lng": "-7.3045544503179",
+        "website": "https://grovehillanimaltrust.org",
+        "website_centre": "",
+        "website_dogs": "rehoming/dog-rehoming-process/",
+        "facebook": "",
+        "current_dogs": 0,
+        "country": "Northern Ireland"
+    },
+    {
+        "rescue_name": "USPCA",
+        "lat": "54.20142797056085",
+        "lng": "-6.343896749747796",
+        "website": "https://www.uspca.co.uk",
+        "website_centre": "",
+        "website_dogs": "/animals-available-for-rehoming",
+        "facebook": "",
+        "current_dogs": 5,
+        "country": "Northern Ireland"
+    },
+    {
+        "rescue_name": "Mid Antrim Animal Sanctuary",
+        "lat": "54.62641683950719",
+        "lng": "-5.677465333766653",
+        "website": "https://www.assisi-ni.org",
+        "website_centre": "",
+        "website_dogs": "/adopt",
+        "facebook": "",
+        "current_dogs": 22,
+        "country": "Northern Ireland"
     }
 ]
