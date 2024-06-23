@@ -446,5 +446,85 @@
         "website_dogs": "/give-a-dog-a-home/dogs-available-for-rehoming",
         "current_dogs": 20,
         "country": "Wales"
+    },
+    {
+        "rescue_name": "Benvardin Animal Rescue Kennels",
+        "lat": "55.1423832946954",
+        "lng": " -6.5083271272516035",
+        "website": "https://benvardinkennels.com",
+        "website_centre": "",
+        "website_dogs": "/",
+        "current_dogs": 12,
+        "country": "Northern Ireland"
+    },
+    {
+        "rescue_name": "Causeway Coast Dog Rescue",
+        "lat": "55.13260582557945",
+        "lng": "-6.6658603369137195",
+        "website": "https://causewaycoastdogrescue.org",
+        "website_centre": "",
+        "website_dogs": "/dogs-for-rehoming",
+        "current_dogs": 3,
+        "country": "Northern Ireland"
+    },
+    {
+        "rescue_name": "Clare Animal Welfare CLG",
+        "lat": "52.8474208530384",
+        "lng": "-8.988752072490978",
+        "website": "https://www.clareanimalwelfare.ie",
+        "website_centre": "",
+        "website_dogs": "/our-dogs",
+        "current_dogs": 7,
+        "country": "Ireland"
+    },
+    {
+        "rescue_name": "PAWS Animal Rescue",
+        "lat": "52.51086657687802",
+        "lng": "-7.4587952536375575",
+        "website": "https://www.paws.ie",
+        "website_centre": "",
+        "website_dogs": "/adopt-a-dog",
+        "current_dogs": 50,
+        "country": "Ireland"
+    },
+    {
+        "rescue_name": "Galway SPCA",
+        "lat": "53.14440139972886",
+        "lng": "-8.2677861959272",
+        "website": "https://www.gspca.ie",
+        "website_centre": "",
+        "website_dogs": "/rehoming/dogs",
+        "current_dogs": 10,
+        "country": "Ireland"
+    },
+    {
+        "rescue_name": "Dogs Trust Ireland",
+        "lat": "53.4141094466885",
+        "lng": "-6.319405314133566",
+        "website": "https://www.dogstrust.ie",
+        "website_centre": "",
+        "website_dogs": "/rehoming/dogs?county=All",
+        "current_dogs": 128,
+        "country": "Ireland"
+    },
+    {
+        "rescue_name": "Dogs Trust Ireland",
+        "lat": "53.33276569667293",
+        "lng": "-9.55779431797975",
+        "website": "https://www.madra.ie",
+        "website_centre": "",
+        "website_dogs": "/dog-profiles",
+        "current_dogs": 14,
+        "country": "Ireland"
+    },
+    {
+        "rescue_name": "Dogs Trust Ireland",
+        "lat": "53.74964886887303",
+        "lng": "-8.800114390686645",
+        "website": "https://mayospca.ie",
+        "website_centre": "",
+        "website_dogs": "/category/dogs/",
+        "current_dogs": 3,
+        "country": "Ireland"
     }
 ]
