@@ -581,5 +581,16 @@
         "facebook": "",
         "current_dogs": 22,
         "country": "Northern Ireland"
+    },
+    {
+        "rescue_name": "ManxSCPA",
+        "lat": "54.17015230120721",
+        "lng": "-4.617847273748266",
+        "website": "https://www.manxspca.com",
+        "website_centre": "",
+        "website_dogs": "/pet_taxonomy/dogs",
+        "facebook": "",
+        "current_dogs": 7,
+        "country": "Isle of Man"
     }
 ]
