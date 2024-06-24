@@ -173,7 +173,11 @@
 
                 document.getElementById("nearbyrescues").innerHTML = html;
 
-                html = '<p>Rescue one of the <b>'+ current_dogs +' dogs</b> awaiting their forever homes at your nearby dog rescues in the UK.<br> More rescues coming soon!</br>'
+                adch_rescues = 174
+                rescues_available = rescues.length
+                adch_rescues_remaining = adch_rescues - rescues_available
+
+                html = '<p>Rescue one of the <b>'+ current_dogs +' dogs</b> awaiting their forever homes from <b>' + rescues.length +'</b> nearby <a href="https://adch.org.uk?utm_source=dogadopt" target="_blank">ADCH</a> dog rescues in the UK.<br><i> '+ adch_rescues_remaining +' more <a href="https://adch.org.uk?utm_source=dogadopt" target="_blank">ADCH</a> rescues coming soon!</i></br>'
                 document.getElementById("rescuestatus").innerHTML = html;
             })
             .catch(error => {
