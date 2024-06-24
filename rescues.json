@@ -592,5 +592,38 @@
         "facebook": "",
         "current_dogs": 7,
         "country": "Isle of Man"
+    },
+    {
+        "rescue_name": "Boxer Welfare Scotland",
+        "lat": "57.436291",
+        "lng": "-1.829410",
+        "website": "https://www.boxerwelfarescotland.org.uk",
+        "website_centre": "",
+        "website_dogs": "",
+        "facebook": "",
+        "current_dogs": 0,
+        "country": "Scotland"
+    },
+    {
+        "rescue_name": "Airdale Terrier Club of Scotland",
+        "lat": "55.833511",
+        "lng": "-4.426281",
+        "website": "https://www.airedale-terrier-club-of-scotland.co.uk",
+        "website_centre": "",
+        "website_dogs": "",
+        "facebook": "",
+        "current_dogs": 0,
+        "country": "Scotland"
+    },
+    {
+        "rescue_name": "Scottish Staffordshire Bull Terrier Rescue",
+        "lat": "55.833511",
+        "lng": "-4.426281",
+        "website": "https://staffierescuescotland.co.uk",
+        "website_centre": "",
+        "website_dogs": "",
+        "facebook": "",
+        "current_dogs": 0,
+        "country": "Scotland"
     }
 ]
