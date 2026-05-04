@@ -127,41 +127,22 @@ test.describe('Smoke Tests - Production Site', () => {
 
   test('rescues page displays rescue organizations', async ({ page }) => {
     await page.goto('/rescues');
-    await page.waitForLoadState('networkidle');
-    
-    // Wait a bit for React to render and for any loading states to resolve
-    await page.waitForTimeout(2000);
-    
-    // Check if there's an error message on the page
-    const errorMessage = page.locator('text=/error loading rescues/i');
-    const hasError = await errorMessage.isVisible().catch(() => false);
-    
-    if (hasError) {
-      console.log('ERROR: Rescues page is showing an error message');
-      // Take a screenshot for debugging
-      await page.screenshot({ path: 'rescues-error.png' });
-    }
-    
-    // Check if there's a "no rescues found" message
-    const noRescuesMessage = page.locator('text=/no rescues found/i');
-    const hasNoRescues = await noRescuesMessage.isVisible().catch(() => false);
-    
-    if (hasNoRescues) {
-      console.log('WARNING: Rescues page is showing "no rescues found" message');
-      await page.screenshot({ path: 'rescues-none.png' });
-    }
-    
-    // Wait for rescues to load - look for rescue cards (article elements with rescue info)
-    // RescueCard renders as <article> with rescue name in <h3>
+
+    // Do not use waitForLoadState('networkidle') here.  The useRescues hook
+    // uses an AbortController that cancels the request after 12 s if the API
+    // is slow; when that fires, networkidle resolves immediately (no active
+    // requests) while React Query is still mid-retry.  Using networkidle as
+    // the sync point means the element-visibility window starts before the
+    // retry completes, causing a reliable false failure.
+    //
+    // Instead, poll directly for the rescue cards with a budget large enough
+    // to cover: page load + first API attempt (≤12 s) + retry backoff (1 s)
+    // + second API attempt (≤12 s) + React render time.
     const rescueCards = page.locator('article h3');
-    
-    // Should have at least one rescue displayed (with a longer timeout for slow API)
-    await expect(rescueCards.first()).toBeVisible({ timeout: 15000 });
-    
-    // Verify multiple rescues are present
+    await expect(rescueCards.first()).toBeVisible({ timeout: 45000 });
+
     const rescueCount = await rescueCards.count();
     expect(rescueCount).toBeGreaterThan(0);
-    
     console.log(`Found ${rescueCount} rescue organizations on rescues page`);
   });
 });
