@@ -109,6 +109,10 @@ const DogGrid = () => {
           </p>
         </div>
 
+        <div className="mb-6 sm:mb-8">
+          <RescuesInfoBox />
+        </div>
+
         <div className="flex flex-col lg:flex-row gap-6 sm:gap-8">
           <div className="lg:w-64 shrink-0">
             <FilterSidebar
@@ -160,12 +164,6 @@ const DogGrid = () => {
               viewMode={viewMode}
               hasLocation={hasLocation}
             />
-
-            {!isLoading && !error && filteredDogs.length > 0 && (
-              <div className="mt-8">
-                <RescuesInfoBox />
-              </div>
-            )}
 
             {!isLoading && !error && filteredDogs.length > 0 && totalPages > 1 && (
               <div className="mt-8">
